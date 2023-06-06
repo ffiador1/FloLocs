@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 // import "./loadEnvironment.mjs";
 // import records from "./routes/record.mjs";
 
-mongoose.connect("mongodb+srv://ffiador:FloLocs1@cluster0.xfwanj8.mongodb.net/?retryWrites=true&w=majority");
+mongoose.connect(ATLAS_URI);
 
 
 // IMPORT YOUR SCHEMAS HERE
